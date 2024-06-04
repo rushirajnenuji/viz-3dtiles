@@ -1,6 +1,6 @@
 import json
-from .BoundingVolume import BoundingVolume
-from .Cesium3DTile import Cesium3DTile
+from BoundingVolume import BoundingVolume
+from Cesium3DTile import Cesium3DTile
 import os
 
 
