@@ -11,6 +11,8 @@ import numpy as np
 import os
 import uuid
 import pyproj
+import pandas as pd 
+pd.options.mode.chained_assignment = None  # default='warn'
 
 class Cesium3DTile:
     CESIUM_EPSG = 4978
